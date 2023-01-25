@@ -1,0 +1,61 @@
+.winContainer{
+    border: 1px solid red;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.winContainer::-webkit-scrollbar{
+    width: 0;
+}
+.winWrapper{
+    height: 50vh;
+    width: 60%;
+    border: 1px solid black;
+}
+
+.headBar{
+    border: 1px solid black;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+
+}
+
+.ProgressBar{
+    height: 15px;
+    flex: 0.8;
+    width: 70%;
+    background-color: green;
+    margin: 0 auto;
+    margin-top: 25px;
+    border-radius: 12px;
+}
+
+.cross{
+    flex: 0.2;
+    /* border: 1px solid red; */
+    text-align: center;
+    margin-top: 18px;
+    height: 15px;
+    color: purple;
+    font-size: 22px;
+    cursor: pointer;
+}
+.iconOfCross{
+    height: 30px;
+    border: 2px solid black;
+    width: 15%;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 65px;
+    padding-top: 2px;
+}
+
+.gift{
+    border: 1px solid red;
+    flex-direction:column;
+}
